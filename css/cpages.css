@@ -144,11 +144,12 @@ h11,.playfair6{
 
 h13,h14,h15,h16,h17,h19,.roboto1,.roboto2,.roboto3,.roboto4{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .cabin1,.cabin3{
     font-family: 'Cabin', sans-serif;
-
+    font-weight: 400;
 }
 
 h13{
