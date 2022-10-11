@@ -41,7 +41,7 @@ body{
     bottom: 0;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,.description1,.description2,.description3,.description4{
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -107,4 +107,113 @@ p{
     color: var(--bs-accordion-btn-color);
     background-color: rgba(155, 221, 216, 0.25);
     transition: var(--bs-accordion-transition);
+}
+
+h6,h7,h8,h9,h10,h12,.playfair1,.playfair2,.playfair3,.playfair4,.playfair5,.playfair7{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h6{
+    font-size: 4.209rem;
+}
+
+h7{
+    font-size: 3.157rem;
+}
+
+h8{
+    font-size: 2.369rem;
+}
+
+h9{
+    font-size: 1.777rem;
+}
+
+h11,.playfair6{
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.playfair1,.playfair2,.playfair3,.playfair4,.playfair5,.playfair7{
+    font-size: 1rem;
+
+}
+
+h13,h14,h15,h16,h17,h19,.roboto1,.roboto2,.roboto3,.roboto4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabin1,.cabin3{
+    font-family: 'Cabin', sans-serif;
+
+}
+
+h13{
+    font-size: 4.209rem;
+}
+
+h14{
+    font-size: 3.157rem;
+}
+
+h15{
+    font-size: 2.369rem;
+}
+
+h16{
+    font-size: 1.777rem;
+}
+
+h18,.cabin2{
+    font-family: 'Cabin', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.roboto1,.roboto2,.roboto3,.roboto4,.cabin1,.cabin3{
+    font-size: 1rem;
+
+}
+
+h20,h21,h22,h23,h24,h26,.poppins1,.poppins2,.poppins3,.poppins4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter1,.inter3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h20{
+    font-size: 4.209rem;
+}
+
+h21{
+    font-size: 3.157rem;
+}
+
+h22{
+    font-size: 2.369rem;
+}
+
+h23{
+    font-size: 1.777rem;
+}
+
+h25,.inter2{
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.poppins1,.poppins2,.poppins3,.poppins4,.inter1,.inter3{
+    font-size: 1rem;
+
 }
