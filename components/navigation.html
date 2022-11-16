@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Shanel Adolfo Navigation Bars</title>
+  <link rel="icon" type="image/x-icon" href="../img/Favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Mulish&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <a href="../index.html" class="logo"><img alt="Shanel Adolfo logo" class="mb-4" src="../img/Favicon.png"
+            width="40px"></a>
+
+        <ul class="list-unstyled components">
+
+          <li class="active">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="../foundation/type.html">Typography</a>
+              </li>
+              <li>
+                <a href="../foundation/color.html">Color Palette</a>
+              </li>
+              <li>
+                <a href="../foundation/logo.html">Logo Variations</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="active">
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+              class="dropdown-toggle">Components</a>
+            <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="buttons.html">Buttons</a>
+              </li>
+              <li>
+                <a href="cards.html">Cards</a>
+              </li>
+              <li>
+                <a href="footer.html">Footers</a>
+              </li>
+              <li>
+                <a href="graphical elements.html">Graphical Elements</a>
+              </li>
+              <li class="active">
+                <a href="#">Navigation Bars</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+            <ul class="collapse list-unstyled" id="PatternsSubmenu">
+              <li>
+                <a href="../patterns/pattern1.html">Homepage</a>
+              </li>
+              <li>
+                <a href="../patterns/pattern2.html">Project Page</a>
+              </li>
+
+            </ul>
+          </li>
+
+
+        </ul>
+
+
+
+
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+
+          <h1>Navigation Bars</h1>
+          <div class="col-8">
+            <p>The navigation bar must be included on all pages using this design system. The navigation bar
+              includes a navigation menu and allows users to navigate to the "About" and "Work" pages of the website.
+            </p>
+          </div>
+          <div class="mb-4">
+            <h2>Navigation Bar Example</h2>
+            <p>This navigation bar example is responsive. Adjust the browser size to view responsive sizing.
+            </p>
+            <nav class="navbar navbar-dark navbar-expand-md">
+              <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand d-none d-lg-flex" href="#">
+                  <img src="../img/Lettermark Logo Black and White.png" alt="" width="116" height="116" />
+                </a>
+                <a class="navbar-brand d-lg-none" href="#">
+                  <img src="../img/Lettermark Logo Black and White.png" alt="" width="100" height="100" />
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav navbar-nav flex-row ms-auto">
+                    <li class="nav-item me-5" id="nav-item">
+                      <a class="nav-link active" href="#">
+                        <p>About</p>
+                      </a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                      <a class="nav-link" href="#">
+                        <p>Work</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </nav>
+          </div>
+          <div class="col-8">
+            <h2>Accessibility Considerations</h2>
+
+            <p>Be sure to use the colors specified in the <a href="../foundation/color.html">color palette section</a>
+              to ensure accessible contrast ratio. Icons should include descriptive alt attributes that tell users where
+              the link will direct them to.</p>
+
+            <h2>Usage</h2>
+
+            <ul>
+              <li>A navigation bar must be included in all pages created within this design system.</li>
+            </ul>
+
+
+            <h2>Code Example</h2>
+
+            <pre><code>
+&lt;nav class=&quot;navbar navbar-dark navbar-expand-md&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;button class=&quot;navbar-toggler&quot;
+            type=&quot;button&quot;
+            data-bs-toggle=&quot;collapse&quot;
+            data-bs-target=&quot;#navbarSupportedContent&quot;
+            aria-controls=&quot;navbarSupportedContent&quot;
+            aria-expanded=&quot;false&quot;
+            aria-label=&quot;Toggle navigation&quot;&gt;
+            &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;a class=&quot;navbar-brand d-none d-lg-flex&quot;
+        href=&quot;#&quot;&gt;
+        &lt;img src=&quot;../img/Lettermark Logo Black and White.png&quot;
+            alt=&quot;&quot;
+            width=&quot;116&quot;
+            height=&quot;116&quot; /&gt;
+    &lt;/a&gt;
+    &lt;a class=&quot;navbar-brand d-lg-none&quot;
+        href=&quot;#&quot;&gt;
+        &lt;img src=&quot;../img/Lettermark Logo Black and White.png&quot;
+            alt=&quot;&quot;
+            width=&quot;100&quot;
+            height=&quot;100&quot; /&gt;
+    &lt;/a&gt;
+    &lt;div class=&quot;collapse navbar-collapse&quot;id=&quot;navbarSupportedContent&quot;&gt;
+        &lt;ul class=&quot;navbar-nav navbar-nav flex-row ms-auto&quot;&gt;
+          &lt;li class=&quot;nav-item me-5&quot;&gt;
+            &lt;a class=&quot;nav-link active&quot; href=&quot;#&quot;&gt;About&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Work&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;</code></pre>
+          </div> <!-- Content  -->
+        </div><!-- Row  -->
+      </div><!-- Container -->
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

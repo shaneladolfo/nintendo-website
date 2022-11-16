@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Shanel Adolfo Buttons</title>
+  <link rel="icon"
+        type="image/x-icon"
+        href="../img/Favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Mulish&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous">
+
+  <link rel="stylesheet"
+        href="../css/style.css">
+  <link rel="stylesheet"
+        href="../css/prism.css" />
+
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button"
+                id="sidebarCollapse"
+                class="toggle-btn">
+
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <a href="../index.html"
+           class="logo"><img alt="Shanel Adolfo logo"
+               class="mb-4"
+               src="../img/Favicon.png" width="40px"></a>
+
+        <ul class="list-unstyled components">
+
+          <li>
+            <a href="#homeSubmenu"
+               data-toggle="collapse"
+               aria-expanded="false"
+               class="dropdown-toggle">Foundations</a>
+
+            <ul class="collapse list-unstyled"
+                id="homeSubmenu">
+              <li>
+                <a href="../foundation/type.html">Typography</a>
+              </li>
+              <li>
+                <a href="../foundation/color.html">Color Palette</a>
+              </li>
+              <li>
+                <a href="../foundation/logo.html">Logo Variations</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="active">
+            <a href="#ComponentsSubmenu"
+               data-toggle="collapse"
+               aria-expanded="false"
+               class="dropdown-toggle">Components</a>
+            <ul class="collapse.show list-unstyled"
+                id="ComponentsSubmenu">
+              <li class="active">
+                <a href="#">Buttons</a>
+              </li>
+              <li>
+                <a href="cards.html">Cards</a>
+              </li>
+              <li>
+                <a href="footer.html">Footers</a>
+              </li>
+              <li>
+                <a href="graphical elements.html">Graphical Elements</a>
+              </li>
+              <li>
+                <a href="navigation.html">Navigation Bars</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#PatternsSubmenu"
+               data-toggle="collapse"
+               aria-expanded="false"
+               class="dropdown-toggle">Patterns</a>
+            <ul class="collapse list-unstyled"
+                id="PatternsSubmenu">
+              <li>
+                <a href="../patterns/pattern1.html">Homepage</a>
+              </li>
+              <li>
+                <a href="../patterns/pattern2.html">Project Page</a>
+              </li>
+
+            </ul>
+          </li>
+
+
+        </ul>
+
+
+
+
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div class="btn-container"
+             id="content">
+
+          <h1>Buttons</h1>
+
+          <p>This design system includes one button, with three different states.</p>
+          <h2>Primary</h2>
+          <p>The primary button is the button that users will encounter the most on the website.</p>
+          <!-- Code example -->
+          <div class="p-5 border">
+            <button href="#" class="btn-primary">Primary</button>
+          </div>
+          <!-- Code example-->
+          <h3>Code</h3>
+          <pre class="language-markup">
+            <code>
+              &lt;button href="#" class="btn-primary"&gt;Primary&lt;/button&gt;
+            </code>
+          </pre>
+          <h2>Hover</h2>
+          <p>The hover state of the button will darken to ensure the users will know the button is about to be selected.</p>
+
+          <div class="p-5 border">
+            <button href="#" class="btn-default">Hover</button>
+          </div>
+           <!-- Code example-->
+           <h3>Code</h3>
+           <pre class="language-markup">
+             <p>In CSS:</p>
+             <code>
+               &lt;.btn-default:hover{}&gt;
+             </code>
+           </pre>
+
+          <h2>Disabled</h2>
+          <p>The disabled button will be unusable and unclickable. Users will rarely encounter a disabled button on this website.</p>
+
+           <!-- Code example -->
+           <div class="p-5 border">
+             <button href="#" class="btn-disabled">Disabled</button>
+           </div>
+           <!-- Code example-->
+           <h3>Code</h3>
+           <pre class="language-markup">
+             <code>
+               &lt;button href="#" class="btn-disabled"&gt;Disabled&lt;/button&gt;
+             </code>
+           </pre>
+
+          <h2>Accessibility Considerations</h2>
+          <p>Ensure all buttons are correctly labelled. Make sure all buttons have a link that leads users to the correct page. </p>
+
+          <h2>Usage</h2>
+          <p>Use buttons to initiate any action on the website</p>
+        </div> <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+  </div>
+  <script src="../js/prism.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

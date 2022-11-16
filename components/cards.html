@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Shanel Adolfo Cards</title>
+  <link rel="icon" type="image/x-icon" href="../img/Favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Mulish&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <a href="../index.html" class="logo"><img alt="Shanel Adolfo logo" class="mb-4" src="../img/Favicon.png"
+            width="40px"></a>
+
+        <ul class="list-unstyled components">
+
+          <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="../foundation/type.html">Typography</a>
+              </li>
+              <li>
+                <a href="../foundation/color.html">Color Palette</a>
+              </li>
+              <li>
+                <a href="../foundation/logo.html">Logo Variations</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="active">
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+              class="dropdown-toggle">Components</a>
+            <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="buttons.html">Buttons</a>
+              </li>
+              <li class="active">
+                <a href="#">Cards</a>
+              </li>
+              <li>
+                <a href="footer.html">Footers</a>
+              </li>
+              <li>
+                <a href="graphical-elements.html">Graphical Elements</a>
+              </li>
+              <li>
+                <a href="navigation.html">Navigation Bars</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+            <ul class="collapse list-unstyled" id="PatternsSubmenu">
+              <li>
+                <a href="../patterns/pattern1.html">Homepage</a>
+              </li>
+              <li>
+                <a href="../patterns/pattern2.html">Project Page</a>
+              </li>
+
+            </ul>
+          </li>
+
+
+        </ul>
+
+
+
+
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+
+          <h1>Cards</h1>
+          <div class="col-8">
+            <p>Cards are used within this design system to link to examples of work. Cards include an image, category,
+              project title, and summary describing the content, as well as a link to the content.</p>
+          </div>
+          <h2>Card Examples</h2>
+
+          <div class="card mb-3" style="max-width: 530px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="../img/placeholder-pic.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Project title</h5>
+                  <p class="card-text">Project Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8">
+            <h2>Accessibility Considerations</h2>
+
+            <p>Include meaningful alt text for card images. Make sure typography follows the typograhical hierarchy.
+              Ensure links are stated with clear understanding for the user what they are clicking on.</p>
+
+            <h2>Usage</h2>
+              <p>Cards may be used to link to project content on the website.</p>
+
+
+            <h2>Code Examples</h2>
+
+            <div class="card mb-3" style="max-width: 530px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../img/placeholder-pic.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Project title</h5>
+                    <p class="card-text">Project Description</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <pre><code>
+  &lt;div class=&quot;card mb-5&quot; style=&quot; max-width:530px&quot;&gt;
+    &lt;div class=&quot;row no-gutters&quot;&gt;
+     &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;img src=&quot;../img/placeholder-pic.jpg&quot;&gt;
+     &lt;/div&gt;
+     &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;h5 class=&quot;card-title&quot;&gt;Project Title/h5&gt;
+        &lt;p class=&quot;card-text&quot;Project Description/p&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+            </code></pre>
+          </div>
+
+        </div> <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+  </div>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
